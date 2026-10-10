@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free Tutoring Platform</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+        <a class="navbar-brand" href="/">Free Tutoring</a>
+
+        <div>
+
+            <a class="btn btn-light me-2" href="/">Home</a>
+
+            <a class="btn btn-light me-2" href="/about/">About</a>
+
+            <a class="btn btn-light me-2" href="/subjects/">Subjects</a>
+
+            <a class="btn btn-light me-2" href="/contact/">Contact</a>
+
+            <a class="btn btn-warning me-2" href="/register/">Register</a>
+
+            <a class="btn btn-success me-2" href="/login/">Login</a>
+
+            <a class="btn btn-warning me-2" href="/students/register/">Student Register</a>
+
+            <a class="btn btn-success me-2" href="/tutors/register/">Tutor Register</a>
+
+            <a class="btn btn-info me-2" href="/students/">Students</a>
+
+            <a class="btn btn-dark me-2" href="/tutors/">Tutors</a>
+
+            <a class="btn btn-secondary" href="/messages/">Messages</a>
+
+        </div>
+
+    </div>
+</nav>
+
+<div class="container mt-5">
+
+    {% block content %}
+
+    {% endblock %}
+
+</div>
+
+</body>
+</html>
